@@ -57,7 +57,7 @@ void Repetition() {
 void TurnedName() {
 	char tn[5000];
 	for (int i = n - 1; i >= 0; i--)
-		tn[n-i] = ar[i];
+		tn[n-i-1] = ar[i];
 	for (int i = 0; i < n; i++)
 		ar[i] = tn[i];
 }
